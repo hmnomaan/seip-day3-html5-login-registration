@@ -8,24 +8,70 @@
   </head>
   <body>
     <form action="" method="GET">
-      <tr>
-        <td><label for="fname">First Name :</label></td>
-        <td>
-          <input type="text" name="fname" id="fname" placeholder="First Name" />
-        </td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-      </tr>
+      <table>
+        <tr>
+          <td><label for="fname">First Name :</label></td>
+          <td>
+            <input
+              type="text"
+              name="fname"
+              id="fname"
+              placeholder="First Name"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="lname">Last Name :</label></td>
+          <td>
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              placeholder="Last Name"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Email :</label></td>
+          <td>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Type your email address"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="dob">DOB :</label></td>
+          <td><input type="date" id="dob" name="dob" /></td>
+        </tr>
+        <tr>
+          <td><label for="moible">Mobile</label></td>
+          <td>
+            <input
+              type="tel"
+              maxlength="11"
+              id="moible"
+              name="moible"
+              placeholder="Type your mobile number"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="address"> Address:</label></td>
+          <tr><td> Street Address:<input type="text" id="address" name="address" placeholder="i.e. 167, Khapara Road"></td></tr><tr>
+          <td>Zip Code:<input type="tel" maxlength="4" id="address" name="address" placeholder="i.e. 1710"> </td>
+          <td> City: <input 
+          type="text" id="address" name="address" placeholder="i.e. Gazipur"></td></tr><tr>
+          <td>Country: <input type="country" id="address" name="address" placeholder="i.e. Bangladesh"> </td></tr>
+          
+        </tr>
+        <tr>
+            <td><button type="submit">Register</button></td>
+        </tr>
+      </table>
     </form>
   </body>
 </html>
